@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>송금보내요</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      width: 280px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .header {
+      background-color: #ffeb3b;
+      padding: 12px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .image {
+      width: 80px;
+      margin-top: 12px;
+    }
+    .content {
+      padding: 12px;
+    }
+    .amount {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+    .desc {
+      font-size: 12px;
+      color: #555;
+      margin-bottom: 16px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      background-color: #f2f2f2;
+      border-radius: 8px;
+      font-size: 14px;
+      color: black;
+      text-decoration: none;
+      margin-bottom: 12px;
+    }
+    .footer {
+      font-size: 10px;
+      color: #888;
+      border-top: 1px solid #eee;
+      padding: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">송금보내요</div>
+    <div class="content">
+      <img class="image" src="https://i.imgur.com/g13urNc.png" alt="라이언 하트">
+      <div class="amount">1,000,000원을 보냈어요.</div>
+      <div class="desc">송금 받기 전까지 보낸 분은 내역 상세화면에서 취소할 수 있어요.</div>
+      <a class="button" href="https://i.imgur.com/WaL9iPz.jpg" target="_blank">송금 받기</a>
+    </div>
+    <div class="footer">카카오페이</div>
+  </div>
+</body>
+</html>
